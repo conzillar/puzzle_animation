@@ -1,0 +1,187 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.animation {
+    width: 78%;
+    height: 610px;
+    border: blue;
+    background-image: url(victor222.jpg);
+}
+
+.Drft {
+    width: 4%;
+    height: 38px;
+    /* border: 1px solid red; */
+    border-radius: 25px;
+    background-color: aquamarine;
+    animation: dft 5s linear infinite;
+}
+
+@keyframes dft {
+    0% {
+        /* background-color: aqua; */
+        /* border: 1px solid aqua; */
+        /* margin: 0 0 0 7%; */
+        margin-top: 0%;
+        margin-left: 8%;
+
+    }
+
+    4% {
+        /* background-color: blue; */
+        /* border: 1px solid blue; */
+        /* margin: 50rem 0 0 0; */
+        margin-top: 32%;
+        margin-left: 8%;
+        background-color:red ;
+        border: 1px solid red;
+
+    }
+    8%{
+        margin-left: 16%;
+        margin-top: 32%;
+        background-color:blue ;
+        border: 1px solid blue;
+    }
+    12%{
+        margin-left: 15%;
+        margin-top: 41%;
+        background-color: yellow;
+        border: 1px solid yellow;
+    }
+    16%{
+        margin-left: 10%;
+        margin-top: 41%;
+        background-color:green ;
+        border:1px solid green ;
+    }
+    20%{
+        margin-left: 10%;
+        margin-top: 50%;
+        background-color:white ;
+        border: 1px solid white;
+    }
+    24%{
+        margin-left: 35%;
+        margin-top: 50%;
+        background-color:black ;
+        border: 1px solid black;
+    }
+    28%{
+        margin-left:35%;
+        margin-top: 42%;
+        background-color:yellowgreen ;
+        border:1px solid yellowgreen ;
+    }
+    32%{
+        margin-left:45%;
+        margin-top: 42%;
+        background-color: purple;
+        border: 1px solid purple;
+    }
+    36%{
+        margin-left:45%;
+        margin-top:22%;
+        background-color:orange ;
+        border:1px solid orange ;
+    }
+    40%{
+        margin-left:37%;
+        margin-top:22%;
+        background-color:red ;
+        border: 1px solid red;
+    }
+    44%{
+        margin-left:37%;
+        margin-top:13%;
+        background-color:blue ;
+        border:1px solid blue ;
+    }
+    48%{
+        margin-left:55%;
+        margin-top:13%;
+        background-color:orangered ;
+        border: 1px solid orangered;
+    }
+    52%{
+        margin-left:55%;
+        margin-top:20%;
+        background-color: slateblue;
+        border:1px solid slateblue ;
+    }
+    56%{
+        margin-left:64%;
+        margin-top:20%;
+        background-color:white ;
+        border: 1px solid white;
+    }
+    60%{
+        margin-left:64%;
+        margin-top:12%;
+        background-color: black;
+        border:1px solid black ;
+    }
+    64%{
+        margin-left:92%;
+        margin-top:12%;
+        background-color:yellow ;
+        border:1px solid yellow ;
+    }
+    68%{
+        margin-left:92%;
+        margin-top:21%;
+        background-color: purple;
+        border: 1px solid purple;
+    }
+    72%{
+        margin-left:83%;
+        margin-top:21%;
+        background-color:green ;
+        border:1px solid green ;
+    }
+    76%{
+        margin-left:83%;
+        margin-top:41%; 
+        background-color:greenyellow ;
+        border: 1px solid greenyellow; 
+    }
+    80%{
+        margin-left:83%;
+        margin-top:41%;
+        background-color:gold ;
+        border: 1px solid gold;
+    }
+    84%{
+        margin-left:73%;
+        margin-top:41%;
+        background-color: goldenrod;
+        border:1px solid goldenrod ;
+    }
+    88%{
+        margin-left:73%;
+        margin-top:50%;
+        background-color:purple ;
+        border: 1px solid purple;
+    }
+    92%{
+        margin-left:92%;
+        margin-top:50%;
+        background-color:red ;
+        border: 1px solid red;
+    }
+
+    100%{
+        margin-left:92%;
+        margin-top:60%;
+        background-color: black;
+        border:1px solid black ;
+    }
+    
+}
